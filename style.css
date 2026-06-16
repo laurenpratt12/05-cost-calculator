@@ -30,6 +30,39 @@ img {
   margin: 20px 0;
 }
 
+.size-selector {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border: 2px solid #d63600;
+  border-radius: 8px;
+}
+
+.size-selector label {
+  display: block;
+  color: #5c3118;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.size-selector select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d63600;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #5c3118;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.size-selector select:hover {
+  background-color: #fdf4e9;
+}
+
+.toppings {
+
 .topping-label {
   width: 45%;
   margin: 10px 0;
@@ -45,6 +78,23 @@ img {
 }
 
 .topping-label:hover {
+  background: #fdf4e9;
+}
+
+.delivery-label {
+  display: block;
+  margin: 20px 0;
+  padding: 12px;
+  background: white;
+  border: 2px solid #d63600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #5c3118;
+  text-align: center;
+}
+
+.delivery-label:hover {
   background: #fdf4e9;
 }
 
